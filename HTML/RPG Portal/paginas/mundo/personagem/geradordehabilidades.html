@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<title>Portal</title>
+	<script src="interacao/html5shiv.min.js"></script>
+	<meta name="author" content="Marcelo Scalvi (14) 99101-4484">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="../../../multimidia/logo.jpg">
+	<link rel="stylesheet" type="text/css" href="../../../css/estilo.css"> 
+		
+</head>
+
+<body>
+
+<header>
+	<figure id="cabeca">
+		<img src="../../../multimidia/header.jpg">
+	</figure>
+</header>
+
+<nav id="menu">
+	<ul>
+		<li><a href="../../../index.html">Home</a></li>
+		<li><a href="../../../mundo-home.html">Mundo</a></li>
+		<li><a href="../../../regras-home.html">Regras</a></li>
+		<li><a href="../../../jogo-home.html">Jogar!</a></li>
+	</ul>
+</nav>
+
+<main>
+<div id="artigo">
+
+	<h2>Habilidades</h2>
+	
+	<h3>O que quer fazer?</h3>
+	
+	<form action="habilidades.php" method="post">
+		<div>
+			<p>Nome</p> 
+			<input type="text" name="nome">
+		</div>
+		<div>
+			<p>Tipo</p>
+			<input type="radio" name="tipo" value="3"> <b>Passiva</b>: está sempre ativa, não importa o que aconteça.<br/>
+			<input type="radio" name="tipo" value="1"> <b>Ativa</b>: acontece apenas quando você quer, nunca espontaneamente<br/>
+			<input type="radio" name="tipo" value="2"> <b>Reativa</b>: acontece sempre em resposta a algo, sem opção de não se ativar.
+		</div>
+		<div>
+			<p>Categoria</p>
+			<input type="radio" name="categoria" value="0"> <b>Técnica</b>: algo que você aprendeu a fazer ao longo da vida, sem magia.<br/>
+			<input type="radio" name="categoria" value="2"> <b>Característica</b>: algo que você sabe fazer desde que nasceu, sem magia.<br/>
+			<input type="radio" name="categoria" value="1"> <b>Magia</b>: algo que você aprendeu a fazer graças a magia.
+		</div>
+		<div>
+			<p>Descrição Simples</p>
+			<textarea id="descricaosimples" name="descricaosimples"></textarea>
+		</div>
+		<div>
+			<p>Número de Testes feitos por Você - <a href="ajudatestes.html" target="_blank">Ajuda</a></p>
+			<input type="number" name="testesmeus">
+		</div>
+		<div>
+		<p>Proficiências Testadas</p>
+			<input type="text" name="prof1"> Dificuldade: <input type="number" name="dific1"> 
+			Motivo: <input type="text" name="motivo1"><br/>
+			<input type="text" name="prof2"> Dificuldade: <input type="number" name="dific2"> 
+			Motivo: <input type="text" name="motivo2"><br/>
+			<input type="text" name="prof3"> Dificuldade: <input type="number" name="dific3"> 
+			Motivo: <input type="text" name="motivo3">
+		</div>
+		<div>
+			<p>Número de Testes feitos pelos Afetados - <a href="ajudatestes.html" target="_blank">Ajuda</a></p>
+			<input type="number" name="testesalvos">
+		</div>
+		<div>
+		<p>Testes dos Oponentes</p>
+			<input type="text" name="prof1i"> Dificuldade: <input type="number" name="dific1i"> 
+			Motivo: <input type="text" name="motivo1i"><br/>
+			<input type="text" name="prof2i"> Dificuldade: <input type="number" name="dific2i"> 
+			Motivo: <input type="text" name="motivo2i"><br/>
+			<input type="text" name="prof3i"> Dificuldade: <input type="number" name="dific3i"> 
+			Motivo: <input type="text" name="motivo3i">
+		</div>
+		<div>
+			<p>Número de Afetados - <a href="ajudaalvo.html" target="_blank">Ajuda</a></p>
+			<select name="alvos">
+			<option value="0">Nenhum</option>
+			<option value="1">Apenas em Você</option>
+			<option value="1">Apenas em Objetos</option>
+			<option value="1">Apenas 1 Aliado</option>
+			<option value="1">Apenas 1 Inimigo</option>
+			<option value="2">Mais de 1 Aliado</option>
+			<option value="2">Mais de 1 Inimigo</option>
+			<option value="2">Em você e 1 Aliado</option>
+			<option value="2">Em você e 1 Inimigo</option>
+			<option value="3">Em você e mais de 1 Aliado</option>
+			<option value="3">Em você e mais de 1 Inimigo</option>
+			<option value="2">Em todos na Área de Efeito</option>
+			</select>
+		</div>
+		<div>
+			<p>Área de Efeito - <a href="ajudaarea.html" target="_blank">Ajuda</a></p>
+			<select name="area">
+			<option value="1">Apenas em Você</option>
+			<option value="1">Apenas nos Alvos</option>
+			<option value="2">Alcance de até 1,5m (1 casa), Centro em Você</option>
+			<option value="3">Alcance de até 3m (2 casas), Centro em Você</option>
+			<option value="4">Alcance de até 5m (3 casas), Centro em Você</option>
+			<option value="5">Alcance de mais de 5m (4+ casas), Centro em Você</option>
+			<option value="3">Alcance de até 1,5m (1 casa), Centro Variável</option>
+			<option value="4">Alcance de até 3m (2 casas), Centro Variável</option>
+			<option value="5">Alcance de até 5m (3 casas), Centro Variável</option>
+			<option value="6">Alcance de mais de 5m (4+ casas), Centro Variável</option>
+			</select>
+		</div>
+		<div>
+			<p>Formato do Efeito - <a href="ajudaformato.html" target="_blank">Ajuda</a></p>
+			<select name="formato">
+			<option value="1">Apenas em Você</option>
+			<option value="1">Apenas no Alvo</option>
+			<option value="2">Linha Reta</option>
+			<option value="3">Cone Fechado</option>
+			<option value="4">Cone Aberto</option>
+			<option value="5">Circular</option>
+			</select>
+		</div>
+		<div>
+			<p>Duração do Efeito - <a href="ajudaduracao.html" target="_blank">Ajuda</a></p>
+			<select name="duracao">
+			<option value="1">Eterno - Passiva</option>
+			<option value="15">Eterno - Inquebrável</option>
+			<option value="1">Instantâneo</option>
+			<option value="2">1 Turno</option>
+			<option value="4">2 Turnos</option>
+			<option value="8">3 Turnos</option>
+			<option value="3">Testes contínuos meus até Interromper</option>
+			<option value="5">Testes contínuos dos afetados até Interromper</option>
+			<option value="2">Testes contínuos meus e dos afetados até Interromper</option>
+			</select>
+		</div>
+		
+		<h3>Como vai Pagar?</h3>
+		
+		<div>
+			<p>Tempo de Ativação - <a href="ajudaativacao.html" target="_blank">Ajuda</a></p>
+			<select name="ativacao">
+			<option value="0">Sempre Ativo</option>
+			<option value="-1">Instantâneo</option>
+			<option value="-2">1 Turno</option>
+			<option value="-4">2 Turnos</option>
+			<option value="-8">3 Turnos</option>
+			<option value="-2">X Turnos</option>
+			</select>
+		</div>
+		<div>
+			<p>Quantidade de Mana ou Estâmina gasta - <a href="ajudacusto.html" target="_blank">Ajuda</a></p>
+			<input type="number" name="custo">
+		</div>
+		
+		<h3>O que tem a Oferecer?</h3>
+		
+		<div>
+			<p>Nível do Cristal Relevante - <a href="ajudacaracteristicas.html" target="_blank">Ajuda</a></p>
+			<select name="cristal">
+			<option value="0">Não é Magia</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			</select>
+		</div>
+		<div>
+			<p>Nível do Personagem - <a href="ajudacaracteristicas.html" target="_blank">Ajuda</a></p>
+			<input type="number" name="nivel">
+		</div>
+		<div>
+			<p>Nível Médio das Proficiências envolvidas - <a href="ajudacaracteristicas.html" target="_blank">Ajuda</a></p>
+			<input type="number" name="nivelprof">
+		</div>
+		<div>
+			<input type="submit" value="Rola ai!"></p>
+		</div>
+	</form>
+	
+
+</main>
+
+</body>
+
+<footer id="rodape">
+	<figure id="casa">
+		<a href="../mundo-personagem-home.html"><img src="../../../multimidia/seta.png"></a>
+	</figure>
+</footer>
+
+</html>

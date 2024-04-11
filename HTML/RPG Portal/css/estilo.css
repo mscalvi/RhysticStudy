@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+
+/* corpo */
+
+body{
+	background-color: lightgrey;
+	font-size: 18pt;
+	width: 1200px;
+	margin: 0 auto;
+	border: black solid;
+}
+hr{
+	display: block;
+	width: 99%;
+}
+
+
+/* Header */
+
+#cabeca{
+	margin: 0 0 0 1.9px;
+	width: 1200px;
+	height: 300px;
+	display: inline-block;
+}
+
+
+/* Menu */
+
+#menu a{
+	text-decoration: none;
+	color: black;
+	padding: 9px 34px;
+}
+#menu a:hover{
+	text-decoration: underline;
+}	
+#menu li{
+	list-style-type: none;
+	list-style-position: inside;
+	display: inline-block;
+	padding: 3px;
+	margin: 0 0 0 120px;
+}
+#menu li:hover{
+	background-color: grey;
+}
+#menu ul{
+	margin: -5px 0 10px 0;
+	border: black solid 1px;
+	border-radius: 25px 25px 25px 25px;
+}
+#menu{
+	text-align: left;
+	display: block;
+}
+#inicio li a[href="index.html"],
+#mundo li a[href="mundo-home.html"],
+#regras li a[href="regras-home.html"],
+#jogo li a[href="jogo-home.html"]{
+	text-decoration: underline;
+}
+
+
+/* Main */
+
+#artigo, #tabela{
+	display: block;
+	position: relative;
+	width: 1000px;
+	float: left;
+	left: 100px;
+	margin: 0px;
+}
+#artigo h1{
+	text-align: center;
+	font-size: 2.5em;
+	font-family: Algerian;
+	
+}
+#artigo h2{
+	text-align: center;
+	font-size: 1.9em;
+	font-family: Algerian;
+}
+#artigo h3{
+	text-align: center;
+	font-size: 1.3em;
+	font-family: Algerian;
+}
+#artigo h4{
+	text-align: center;
+	font-size: 1.1em;
+	font-family: Algerian;
+}
+#artigo h5{
+	font-size: 1em;
+	font-family: Algerian;
+}
+#artigo p{
+	text-align: justify;
+	padding: 10px;
+	font-family: calibri;
+	font-size: .95em;
+	margin-bottom: 0;
+	text-indent: 1.5em;
+}
+#artigo p + p{
+	text-indent: 1.5em;
+	margin-top: 0;
+}
+#artigo a{
+	text-decoration: none;
+	color: darkred;
+	font-size: 1em;
+}
+#artigo a:hover{
+	text-decoration: underline;
+}
+#artigo td a{
+	text-decoration: none;
+	color: darkred;
+	font-size: 1em;
+}
+#artigo td a:hover{
+	text-decoration: underline;
+}
+#artigo li{
+	text-align: justify;
+}
+
+/* Tabelas */
+
+#tabela{
+	text-align: center;
+	font-size: .8em;
+}
+#tabela table{
+	margin: auto;
+}
+
+
+
+/* Footer */
+
+#rodape{
+	clear: both;
+	position: relative;
+	border-bottom: black solid 1px;
+	border-top: black solid 1px;
+	text-align: center;
+	background-color: grey;
+}
+#rodape h3{
+	margin: 0;
+}
+#casa{
+	margin: 5px 0 0;
+}
+
+
+/* Imagens */
+
+#menumundo a img{
+	width: 180px;
+    height: 180px;
+}
+#menumundo{
+	margin: 10px 35px 20px 55px;
+	display: inline-block;
+	float: left;
+	padding: 0 10px;
+}
+#menumundo figcaption{
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	font-size: 18pt;
+	text-align: center;
+	opacity: 1;
+	transition: opacity 0,5s;
+}
+#menumundo:hover figcaption{
+	background-color: rgba(99,0,0,.6);
+	color: black;
+}
+
+#retorno a img{
+	width: 35px;
+    height: 35px;
+}
+#retorno{
+	margin: 20px 70px;
+	display: inline-block;
+	float: center;
+	padding: 0 10px;
+}
+#retorno figcaption{
+	color: white;
+	font-size: 18pt;
+	text-align: center;
+	opacity: 1;
+	transition: opacity 0,5s;
+}
+#retorno:hover figcaption{
+	color: black;
+}
+
+#menujogo a img{
+	width: 120px;
+    height: 120px;
+}
+#menujogo{
+	margin: 10px 35px 20px 45px;
+	display: inline-block;
+	float: left;
+	padding: 0 10px;
+}
+#menujogo figcaption{
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	font-size: 16pt;
+	text-align: center;
+	opacity: 1;
+	transition: opacity 0,5s;
+	width: 150px;
+	margin: 0px 0px 0px -15px;
+}
+#menujogo:hover figcaption{
+	background-color: rgba(99,0,0,.6);
+	color: black;
+}

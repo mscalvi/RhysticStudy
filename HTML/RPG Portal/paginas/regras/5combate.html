@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<title>Portal</title>
+	<script src="interacao/html5shiv.min.js"></script>
+	<meta name="author" content="Marcelo Scalvi (14) 99101-4484">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="../../multimidia/logo.jpg">
+	<link rel="stylesheet" type="text/css" href="../../css/estilo.css"> 
+		
+</head>
+
+<body>
+
+<header>
+	<figure id="cabeca">
+		<img src="../../multimidia/header.jpg">
+	</figure>
+</header>
+
+<nav id="menu">
+	<ul>
+		<li><a href="../../index.html">Início</a></li>
+		<li><a href="../../mundo-home.html">Mundo</a></li>
+		<li><a href="../../regras-home.html">Regras</a></li>
+		<li><a href="../../jogo-home.html">Jogo</a></li>
+	</ul>
+</nav>
+
+<main>
+<div id="artigo">
+	
+	<h2>O Combate</h2>
+	<!--
+	<h3>Regras de Combate</h3>
+	
+	<p>Cada personagem começa com um total de 7 Cartas, sendo elas Ofensivas: 2 Ação Simples, 2 de Movimento e 2 de Concentração; e Defensivas: 1 de Evasão e 
+	2 de Bloqueio.</p>
+	
+	<p>No início de cada turno de combate, cada jogador escolherá duas Cartas Ofensivas e irá coloca-las em uma ordem, e depois colocará as três Cartas 
+	Defensivas também em ordem.</p>
+	
+	<p>Seguindo a ordem de maior Iniciativa para menor Iniciativa, cada um dos jogadores irá revelar sua primeira Carta Ofensiva e realizar a ação referente 
+	a ela, e então fará o mesmo com a segunda.</p>
+	
+	<p>As Cartas Defensivas são ativadas naturalmente conforme o personagem é atacado, na ordem determinada pelo jogador, para cada ataque sofrido no turno. 
+	Defender uma Habilidade do tipo Magia revela Cartas, sendo que caso uma Carta de Bloqueio seja revelada a magia tem sucesso automático, e assim requer 
+	testes como descritos na própria Habilidade.</p>
+	<p>Ao fim de cada turno de combate, cada personagem que não tiver sofrido um ataque, com ou sem sucesso, ganhará um Movimento livre, e então os jogadores 
+	devem redefinir suas ordens de cartas.</p>
+	
+	<h3>As Cartas</h3>
+	
+	<p><b>Ação Simples</b>: possibilita ao personagem realizar qualquer ação simples, menos andar, atacar, utilizar habilidades que não sejam Avançadas, 
+	pegar itens na mochila, falar ou mandar alguém à merda.</p>
+	<p><b>Movimento</b>: possibilita ao personagem se deslocar uma casa.</p>
+	<p><b>Ação Avançada</b>: possibilita que o personagem faça ações duplas, como andar e atacar, ou movimentos especiais, como habilidades Avançadas.</p>
+	<p><b>Concentração:</b> cada vez que utilizar Concentração o personagem deverá fazer uma rolagem de Capacidade Mental, e acumular os Acertos (resultados
+	iguais a 6). Na próxima
+	rolagem que aquele personagem fizer, independente de qual seja a ação, ele somará todos os Acertos acumulados ao resultado da rolagem. Caso a rolagem
+	seja para se Concentrar novamente, os Acertos se acumularão, a um limite igual ao nível da sua Capacidade Mental.</p>
+	<p><b>Esquiva</b>: ao suceder em uma Esquiva o personagem deverá,
+	obrigatóriamente e antes de tudo (a não ser que algo diga o contrário), se locomover uma casa. Caso ele não possa se locomover, ficará parado, mas receberá
+	50% do Dano, como se não tivesse se esquivado.</p>
+	<p><b>Bloqueio</b>: ao suceder em um Bloqueio o personagem não receberá nenhum Dano, a não ser que algo diga o contrário. Magias não podem ser 
+	Bloqueadas, salvo em situações específicas.</p>
+	
+	<h3>Regras Especiais</h3>
+	
+	<p><b>Alcance:</b> o alcance de uma habilidade ou ataque depende do tipo de arma e da Proficiência relevante para este, e normalmente esta descrito
+	junto da arma utilizada, ou na descrição da habilidade.</p>
+	<p><b>Fim das Cartas Defensivas</b>: sempre que um personagem sem Cartas Defensivas disponíveis for atacado o valor de teste é sua Resistência -5.</p>
+	<p><b>Ataque à Distância:</b> quando um personagem for realizar um ataque a distância ele deverá rolar 1d20. Cada casa ocupada entre ele e o alvo principal
+	terá X% de chance de ser atinjida, de acordo com a precisão da arma. Ou seja: ao utilizar uma arma de precisão 10%
+	rola-se 1d20, 1 e 2 significam um acerto no primeiro obstáculo, 3 e 4
+	no segundo, e assim por diante.</p>
+	<p><b>Ignorar Ataque</b>: um personagem pode optar por não revelar Cartas Defensivas ao receber um golpe, porém ele ficará impossibilitado de revelar
+	uma Carta Defensiva até o fim do turno.</p>
+	<p><b>Ataque de Oportunidade</b>: o AdO é uma oportunidade única na qual um personagem recebe a chance de acertar um oponente sem que esse esteja 
+	preparado para se defender.
+	Assim, ao executar um AdO, o jogador deve realizar um teste contra a Defesa ou Esquiva do personagem, dependendo da Carta Defensiva ou do contexto 
+	narrativo, com uma penalidade de 6 pontos, em qualquer uma das opções. Sendo assim, o defensor revela a Carta e então recebe a penalidade.</p>
+	<p><b>Arremesso de Itens</b>: itens arremessados causam, por padrão, D/2 de dano, arredondado para baixo, em um mínimo de 1 de Destreza.</p>
+	<p><b>Segunda Mão</b>: ao utilizar uma arma em cada mão, ou tentar realizar dois golpes diferentes, um com cada mão, o personagem sofrerá uma pensalidade
+	de 50% dos dados, arredondados para cima, em qualquer rolagem que faria. No caso de mais de dois membros, a penalidade vai para 75% para o terceiro
+	membro, e qualquer um subsequente a esse.</p>
+	-->
+	<h3>Dano</h3>
+	
+	<p>O Dano é causado de acordo com as constantes relevantes para o ataque: Força, Destreza ou Energia, de acordo com a arma ou Habilidade utilizada.</p>
+	<p>Cada ponto em um Atributo vale um dado de dano.</p>
+	<p>Um ataque desarmado causará Fd6-3 de Dano.</p>
+	
+	<h3>Assassinatos</h3>
+	<p>Um Assassinato é um golpe cujo Dano é automaticamente x5, ou com efeitos narrativos específicos. Para assassinar um alvo é necessário:</p>
+	<ol>
+	<li>Estar furtivo</li>
+		<p>De forma a se rolar Furtividade contra a Percepção Sensorial mais relevante do alvo ao entrar no ambiente, ou após uma tentativa de se esconder.</p>
+		<p>Caso o alvo já tenha te notado, mas você volte a se esconder, ele receberá +3 Pontos de Esquiva contra seu ataque.</p><br/>
+	<li>Suceder em atingir um ponto vital</li> 
+		<p>De forma a se rolar Ladroagem contra a Esquiva, considerado o reflexo natural do alvo em retirar o ponto vital do perigo.</p><br/>
+	<li>Caso Falhe</li>
+		<p>Caso tenha falhado no teste de Furtividade você não poderá utilizar Ladroagem para golpear. Lembre-se: nem sempre você tem certeza do sucesso.</p>
+		<p>Caso tenha falhado no teste de Ladroagem você causará Dano x0,5, e poderá rolar Acrobacia contra a Capacidade Física do alvo para se 
+		distânciar uma casa.</p>
+		
+</div>
+
+</main>
+	
+</body>
+
+<footer id="rodape">
+	<figure id="casa">
+		<a href="../../regras-home.html"><img src="../../multimidia/seta.png"></a>
+	</figure>
+</footer>
+
+</html>
