@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#fotos img{
+	width: 600px;
+	height: 600px;
+	margin-left: 300px;
+	border: black solid 1px;
+}
