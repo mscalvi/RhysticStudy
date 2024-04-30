@@ -1,24 +1,22 @@
 ﻿using System;
 using Bootcamp.Common.Models;
 
-Pessoa pessoa1 = new Pessoa();
-Pessoa pessoa2 = new Pessoa();
-Pessoa pessoa3 = new Pessoa();
+Pessoa pessoa1 = new Pessoa("Carlos", "Alberto", 31);
+Pessoa pessoa2 = new Pessoa("Cláudio", "Macaxeira", 28);
+Pessoa pessoa3 = new Pessoa("Vivian", "Scalvi", 28);
+Pessoa pessoa4 = new Pessoa("Laranjo", "Calabreso", 7);
+Pessoa pessoa5 = new Pessoa("Lair", "Lira", 16);
 
-pessoa1.Nome = "Carlos";
-pessoa1.Idade = 28;
-pessoa1.Apresentar();
+Curso NovoCurso = new Curso ();
+NovoCurso.Nome = "Curso Teste";
+NovoCurso.Alunos = new List<Pessoa>();
 
-pessoa2.Nome = "Cláudio";
-pessoa2.Idade = 26;
-pessoa2.Apresentar();
+NovoCurso.AdicionarAluno (pessoa1);
+NovoCurso.AdicionarAluno (pessoa2);
+NovoCurso.AdicionarAluno (pessoa3);
+NovoCurso.AdicionarAluno (pessoa4);
+NovoCurso.AdicionarAluno (pessoa5);
 
-pessoa3.Nome = "Vivian";
-pessoa3.Idade = 28;
-pessoa3.Apresentar();
+NovoCurso.ListarAlunos();
 
-pessoa3.Nome = "Laranjo";
-pessoa3.Idade = 7;
-pessoa3.Apresentar();
-
-Console.WriteLine(DateTime.Now.ToString());
+//Console.WriteLine(DateTime.Now.ToString());

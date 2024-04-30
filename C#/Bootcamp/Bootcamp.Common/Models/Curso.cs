@@ -17,14 +17,7 @@ namespace Bootcamp.Common.Models
 
         public void ExcluirAluno (Pessoa aluno)
         {
-            if (Alunos.Any(x => x.ToUpper() == aluno.ToUpper()))
-            {
-                Alunos.Remove(aluno);
-            }
-            else
-            {
-                Console.WriteLine("Aluno não listado.");
-            }
+            Alunos.Remove(aluno);
         }
 
         public void ListarAlunos ()
@@ -33,10 +26,10 @@ namespace Bootcamp.Common.Models
             if (Alunos.Any())
             {  
                 int i = 0;
-                Console.WriteLine("Alunos listados: " + quantidade + "\n");
+                Console.WriteLine("Curso: " + Nome + "\nAlunos listados: " + quantidade + "\n");
                 foreach (var aluno in Alunos){
                     i++;
-                    Console.WriteLine($"{i}- {aluno}");
+                    Console.WriteLine($"{i}- {aluno.NomeCompleto}, {aluno.Idade} anos");
                 }
             }
             else
