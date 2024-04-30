@@ -17,4 +17,8 @@ pessoa3.Nome = "Vivian";
 pessoa3.Idade = 28;
 pessoa3.Apresentar();
 
+pessoa3.Nome = "Laranjo";
+pessoa3.Idade = 7;
+pessoa3.Apresentar();
+
 Console.WriteLine(DateTime.Now.ToString());
