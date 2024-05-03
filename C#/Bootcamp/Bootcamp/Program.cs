@@ -1,6 +1,8 @@
 ﻿using System;
 using Bootcamp.Common.Models;
+using System.Globalization;
 
+/*
 Pessoa pessoa1 = new Pessoa("Carlos", "Alberto", 31);
 Pessoa pessoa2 = new Pessoa("Cláudio", "Macaxeira", 28);
 Pessoa pessoa3 = new Pessoa("Vivian", "Scalvi", 28);
@@ -19,4 +21,11 @@ NovoCurso.AdicionarAluno (pessoa5);
 
 NovoCurso.ListarAlunos();
 
-//Console.WriteLine(DateTime.Now.ToString());
+Console.WriteLine(DateTime.Now.ToString()); */
+
+string[] linhas = File.ReadAllLines ("../Bootcamp.Common/Archives/ReadingFile.txt");
+
+foreach (string linha in linhas)
+{
+    Console.WriteLine(linha);
+}
