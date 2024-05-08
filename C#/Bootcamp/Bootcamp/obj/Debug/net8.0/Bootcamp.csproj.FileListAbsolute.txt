@@ -32,3 +32,4 @@ C:\WorkPlace\RhysticStudy\C#\Bootcamp\Bootcamp\obj\Debug\net8.0\Bootcamp.csproj.
 C:\WorkPlace\RhysticStudy\C#\Bootcamp\Bootcamp\obj\Debug\net8.0\Bootcamp.csproj.Up2Date
 C:\WorkPlace\RhysticStudy\C#\Bootcamp\Bootcamp\obj\Debug\net8.0\Bootcamp.genruntimeconfig.cache
 C:\WorkPlace\RhysticStudy\C#\Bootcamp\Bootcamp\obj\Debug\net8.0\ref\Bootcamp.dll
+C:\WorkPlace\RhysticStudy\C#\Bootcamp\Bootcamp\bin\Debug\net8.0\Newtonsoft.Json.dll

@@ -1,6 +1,7 @@
 ﻿using System;
 using Bootcamp.Common.Models;
 using System.Globalization;
+using Newtonsoft.Json;
 
 
 Pessoa pessoa1 = new Pessoa("Carlos", "Alberto", 31);
@@ -29,3 +30,6 @@ foreach (string linha in linhas)
 {
     Console.WriteLine(linha);
 }
+
+string serializado = JsonConvert.SerializeObject (NovoCurso, Formatting.Indented);
+    File.WriteAllText ("../Bootcamp.Common/Archives/enturmamento.json", serializado);

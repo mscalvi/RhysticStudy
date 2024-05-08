@@ -1,0 +1,35 @@
+{
+  "Nome": "Curso Teste",
+  "Alunos": [
+    {
+      "Nome": "CARLOS",
+      "Sobrenome": "ALBERTO",
+      "NomeCompleto": "CARLOS ALBERTO",
+      "Idade": 31
+    },
+    {
+      "Nome": "CLÁUDIO",
+      "Sobrenome": "MACAXEIRA",
+      "NomeCompleto": "CLÁUDIO MACAXEIRA",
+      "Idade": 28
+    },
+    {
+      "Nome": "VIVIAN",
+      "Sobrenome": "SCALVI",
+      "NomeCompleto": "VIVIAN SCALVI",
+      "Idade": 28
+    },
+    {
+      "Nome": "LARANJO",
+      "Sobrenome": "CALABRESO",
+      "NomeCompleto": "LARANJO CALABRESO",
+      "Idade": 7
+    },
+    {
+      "Nome": "LAIR",
+      "Sobrenome": "LIRA",
+      "NomeCompleto": "LAIR LIRA",
+      "Idade": 16
+    }
+  ]
+}
