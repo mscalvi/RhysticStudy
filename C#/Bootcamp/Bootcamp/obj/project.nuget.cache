@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VpslxOXWjFEkTDK46mRX/w5AQ638U6d/HeQNdAMCgZiBNCHdCzmaepbKd+MN63v5I5c0ILx2cwwZ+nBGJ3WoiQ==",
+  "dgSpecHash": "W3d/9hlZ0iUg8flTI+ARpfCTzOxN+zWIK8JXe8iufCP1588Qr9kh3/hOfI8dHflPj+rWVWePBpQuZacEko5wmg==",
   "success": true,
   "projectFilePath": "C:\\WorkPlace\\RhysticStudy\\C#\\Bootcamp\\Bootcamp\\Bootcamp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcelo Scalvi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
