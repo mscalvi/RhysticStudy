@@ -9,6 +9,7 @@ Pessoa pessoa2 = new Pessoa("Cláudio", "Macaxeira", 28);
 Pessoa pessoa3 = new Pessoa("Vivian", "Scalvi", 28);
 Pessoa pessoa4 = new Pessoa("Laranjo", "Calabreso", 7);
 Pessoa pessoa5 = new Pessoa("Lair", "Lira", 16);
+Pessoa pessoa6 = new Pessoa("Graul", "Kree", 31);
 
 Curso NovoCurso = new Curso ();
 NovoCurso.Nome = "Curso Teste";
