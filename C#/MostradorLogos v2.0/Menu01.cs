@@ -151,6 +151,7 @@ public class Menu01 : MonoBehaviour
     [SerializeField] private Sprite i139;
     [SerializeField] private Sprite i140;
     [SerializeField] private Sprite i141;
+    [SerializeField] private Sprite i142;
 
     [SerializeField] private Button botao001;
     [SerializeField] private Button botao002;
@@ -293,6 +294,7 @@ public class Menu01 : MonoBehaviour
     [SerializeField] private Button botao139;
     [SerializeField] private Button botao140;
     [SerializeField] private Button botao141;
+    [SerializeField] private Button botao142;
 
     [SerializeField] private Button bSair;
 
@@ -1592,6 +1594,15 @@ public class Menu01 : MonoBehaviour
         ImagemTelao.sprite = i141;
         ImagemPC.sprite = i141;
         botao141.GetComponent<Image>().color = Color.red;
+    }
+    public void BotaoApertado142()
+    {
+        NumeroEmpresa.text = "142";
+        NomeEmpresa.text = empresas[142];
+        NomeTelao.text = empresas[142];
+        ImagemTelao.sprite = i142;
+        ImagemPC.sprite = i142;
+        botao142.GetComponent<Image>().color = Color.red;
     }
 
     public void Espera()
