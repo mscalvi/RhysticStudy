@@ -1,0 +1,17 @@
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\bin\Debug\net8.0-windows\Bingo.exe
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\bin\Debug\net8.0-windows\Bingo.deps.json
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\bin\Debug\net8.0-windows\Bingo.runtimeconfig.json
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\bin\Debug\net8.0-windows\Bingo.dll
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\bin\Debug\net8.0-windows\Bingo.pdb
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.Form1.resources
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.csproj.GenerateResource.cache
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.AssemblyInfoInputs.cache
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.AssemblyInfo.cs
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.csproj.CoreCompileInputs.cache
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.sourcelink.json
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.dll
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\refint\Bingo.dll
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.pdb
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\Bingo.genruntimeconfig.cache
+C:\WorkPlace\RhysticStudy\C#\Bingo\Bingo\obj\Debug\net8.0-windows\ref\Bingo.dll
