@@ -27,3 +27,4 @@ C:\WorkPlace\RhysticStudy\C#\BingoManager\BingoManager\obj\Debug\BingoMan.1752FE
 C:\WorkPlace\RhysticStudy\C#\BingoManager\BingoManager\bin\Debug\SQLitePCLRaw.batteries_v2.dll
 C:\WorkPlace\RhysticStudy\C#\BingoManager\BingoManager\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\WorkPlace\RhysticStudy\C#\BingoManager\BingoManager\bin\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+C:\WorkPlace\RhysticStudy\C#\BingoManager\BingoManager\bin\Debug\Banco\BingoManagement.db

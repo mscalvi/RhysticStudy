@@ -41,5 +41,47 @@ namespace BingoManager.Banco
                 }
             }
         }
+
+        public static DataTable ShowAllLists()
+        {
+            string connectionString = @"Data Source=C:\WorkPlace\RhysticStudy\C#\BingoManager\BingoManager\Banco\BingoManagement.db";
+            using (SqliteConnection con = new SqliteConnection(connectionString))
+            {
+                con.Open();
+
+                string query = "SELECT Name FROM ListsTable ORDER BY Name";
+                using (SqliteCommand cmd = new SqliteCommand(query, con))
+                {
+                    using (SqliteDataReader reader = cmd.ExecuteReader())
+                    {
+                        DataTable dt = new DataTable();
+                        dt.Load(reader);
+
+                        return dt;
+                    }
+                }
+            }
+        }
+
+        public static DataTable ShowListContent()
+        {
+            string connectionString = @"Data Source=C:\WorkPlace\RhysticStudy\C#\BingoManager\BingoManager\Banco\BingoManagement.db";
+            using (SqliteConnection con = new SqliteConnection(connectionString))
+            {
+                con.Open();
+
+                string query = "SELECT Name FROM ListsTable ORDER BY Name";
+                using (SqliteCommand cmd = new SqliteCommand(query, con))
+                {
+                    using (SqliteDataReader reader = cmd.ExecuteReader())
+                    {
+                        DataTable dt = new DataTable();
+                        dt.Load(reader);
+
+                        return dt;
+                    }
+                }
+            }
+        }
     }
 }

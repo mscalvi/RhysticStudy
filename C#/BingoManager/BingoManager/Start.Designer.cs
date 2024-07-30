@@ -262,6 +262,7 @@ namespace BingoManager
             this.ListsList.Name = "ListsList";
             this.ListsList.Size = new System.Drawing.Size(577, 21);
             this.ListsList.TabIndex = 4;
+            this.ListsList.SelectedIndexChanged += new System.EventHandler(this.ListsList_SelectedIndexChanged);
             // 
             // FindCompany
             // 
@@ -269,14 +270,25 @@ namespace BingoManager
             this.FindCompany.Name = "FindCompany";
             this.FindCompany.Size = new System.Drawing.Size(574, 20);
             this.FindCompany.TabIndex = 7;
+            this.FindCompany.TextChanged += new System.EventHandler(this.FindCompany_TextChanged);
             // 
             // CurrentList
             // 
+            this.CurrentList.AllowUserToAddRows = false;
+            this.CurrentList.AllowUserToDeleteRows = false;
+            this.CurrentList.AllowUserToResizeColumns = false;
+            this.CurrentList.AllowUserToResizeRows = false;
             this.CurrentList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.CurrentList.Location = new System.Drawing.Point(631, 70);
+            this.CurrentList.MultiSelect = false;
             this.CurrentList.Name = "CurrentList";
+            this.CurrentList.ReadOnly = true;
+            this.CurrentList.RowTemplate.Height = 30;
+            this.CurrentList.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.CurrentList.Size = new System.Drawing.Size(577, 452);
             this.CurrentList.TabIndex = 3;
+            this.CurrentList.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.CurrentList_CellMouseUp);
+            this.CurrentList.SelectionChanged += new System.EventHandler(this.CurrentList_SelectionChanged);
             // 
             // AllCompanyList
             // 
@@ -290,6 +302,7 @@ namespace BingoManager
             this.AllCompanyList.Name = "AllCompanyList";
             this.AllCompanyList.ReadOnly = true;
             this.AllCompanyList.RowTemplate.Height = 30;
+            this.AllCompanyList.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.AllCompanyList.Size = new System.Drawing.Size(577, 452);
             this.AllCompanyList.TabIndex = 2;
             this.AllCompanyList.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.AllCompanyList_CellMouseUp);
@@ -303,6 +316,7 @@ namespace BingoManager
             this.RemoveButton.TabIndex = 1;
             this.RemoveButton.Text = "<-";
             this.RemoveButton.UseVisualStyleBackColor = true;
+            this.RemoveButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
             // AddButton
             // 
@@ -312,6 +326,7 @@ namespace BingoManager
             this.AddButton.TabIndex = 0;
             this.AddButton.Text = "->";
             this.AddButton.UseVisualStyleBackColor = true;
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // StartScreen
             // 
@@ -356,13 +371,13 @@ namespace BingoManager
         private System.Windows.Forms.Button EditLists;
         private System.Windows.Forms.Panel ListEditPanel;
         private System.Windows.Forms.Label lblEmpresasCadastradas;
-        private System.Windows.Forms.ComboBox ListsList;
         private System.Windows.Forms.DataGridView CurrentList;
         private System.Windows.Forms.DataGridView AllCompanyList;
         private System.Windows.Forms.Button RemoveButton;
         private System.Windows.Forms.Button AddButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox FindCompany;
+        private ComboBox ListsList;
     }
 }
 

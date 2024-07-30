@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|solutionrelative:start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\newcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|solutionrelative:newcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|solutionrelative:start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|c:\\workplace\\rhysticstudy\\c#\\bingomanager\\bingomanager\\banco\\listdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|solutionrelative:banco\\listdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\banco\\companydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|solutionrelative:banco\\companydataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|solutionrelative:start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\start.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,20 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListDataAccess.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\Banco\\ListDataAccess.cs",
+              "RelativeDocumentMoniker": "Banco\\ListDataAccess.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\Banco\\ListDataAccess.cs",
+              "RelativeToolTip": "Banco\\ListDataAccess.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:25:57.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,14 +65,14 @@
               "RelativeDocumentMoniker": "Start.Designer.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\Start.Designer.cs",
               "RelativeToolTip": "Start.Designer.cs",
-              "ViewState": "AQIAABIBAAAAAAAAAAAqwCUBAAAtAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAqwDsBAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T03:24:45.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Start.cs [Design]",
               "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\Start.cs",
               "RelativeDocumentMoniker": "Start.cs",
@@ -81,34 +90,23 @@
               "RelativeDocumentMoniker": "Start.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\Start.cs",
               "RelativeToolTip": "Start.cs",
-              "ViewState": "AQIAAIYAAAAAAAAAAAAUwKwAAAAJAAAA",
+              "ViewState": "AQIAAMgAAAAAAAAAAAAlwEcBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T21:54:56.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CompanyDataAccess.cs",
               "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\Banco\\CompanyDataAccess.cs",
               "RelativeDocumentMoniker": "Banco\\CompanyDataAccess.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\Banco\\CompanyDataAccess.cs",
               "RelativeToolTip": "Banco\\CompanyDataAccess.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAABXAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T22:51:16.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NewCompany.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\NewCompany.cs",
-              "RelativeDocumentMoniker": "NewCompany.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\NewCompany.cs",
-              "RelativeToolTip": "NewCompany.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAADwvz4AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T03:10:03.381Z"
+              "WhenOpened": "2024-07-27T22:51:16.578Z",
+              "EditorCaption": ""
             }
           ]
         }

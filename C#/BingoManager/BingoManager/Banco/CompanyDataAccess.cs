@@ -62,7 +62,6 @@ namespace BingoManager.Banco
                         DataTable dt = new DataTable();
                         dt.Load(reader);
 
-                        // Ensure Logo column contains file paths as strings
                         return dt;
                     }
                 }
