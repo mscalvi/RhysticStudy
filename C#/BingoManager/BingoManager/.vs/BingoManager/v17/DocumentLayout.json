@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|solutionrelative:start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|c:\\workplace\\rhysticstudy\\c#\\bingomanager\\bingomanager\\banco\\listdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\banco\\listdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{438E2DDF-E31D-4548-98E9-3A21CE845255}|BingoManager.csproj|solutionrelative:banco\\listdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "Banco\\ListDataAccess.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAgwCoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T18:25:57.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T18:25:57.739Z"
             },
             {
               "$type": "Document",
@@ -90,7 +89,7 @@
               "RelativeDocumentMoniker": "Start.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\BingoManager\\BingoManager\\Start.cs",
               "RelativeToolTip": "Start.cs",
-              "ViewState": "AQIAAMgAAAAAAAAAAAAlwEcBAAAAAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAiwEcBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T21:54:56.027Z",
               "EditorCaption": ""
@@ -105,8 +104,7 @@
               "RelativeToolTip": "Banco\\CompanyDataAccess.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T22:51:16.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T22:51:16.578Z"
             }
           ]
         }
