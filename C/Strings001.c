@@ -1,39 +1,24 @@
 #include <stdio.h>
-#include <math.h>
 #include <string.h>
 
-int main (){
-    int cont, voga, conso, carac;
-    char string[100];
+int main () {
+    
+    int cont, vog;
+    char str[100];
 
     cont = 1;
+    vog = 0;
 
-    while (cont == 1){
-        conso = 0;
-        voga = 0;
-        carac = -1;
-
+    do {
         printf ("Digite uma frase.\n");
-        gets (string);
-
-        for (int i = 0; i < strlen(string); i++){
-            if (string[i] == 'a' || string[i] == 'e' || string[i] == 'i' || string[i] == 'o' || string[i] == 'u'){
-                voga++;
-            } else if (string[i] >= 'b' && string [i] <= 'z'){
-                conso++;
-            } else {
-                carac++;
+        gets (str);
+        for (int i = 0; i < strlen(str); i++) {
+            if (str[i] == "a" || str[i] == "e" || str[i] == "i" || str[i] == "o" || str[i] == "u"){
+                vog++;
             }
         }
-
-        printf ("Sua frase: %s\n", string);
-        printf ("Total de vogais: %d\n", voga);
-        printf ("Total de consoantes: %d\n", conso);
-        printf ("Total de outros caracteres: %d\n", carac);
-
-        printf ("\n");
-
+        printf ("Sua frase teve %d vogais.\n", vog);
         printf ("Digite 1 para continuar, 0 para sair.\n");
         scanf ("%d", &cont);
-    }
+    } while (cont == 1);
 }
