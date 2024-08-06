@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|c:\\workplace\\rhysticstudy\\c#\\xadrez\\xadrez\\conttabuleiro\\tabuleiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|solutionrelative:conttabuleiro\\tabuleiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|c:\\workplace\\rhysticstudy\\c#\\xadrez\\xadrez\\tela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|solutionrelative:tela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|c:\\workplace\\rhysticstudy\\c#\\xadrez\\xadrez\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|c:\\workplace\\rhysticstudy\\c#\\xadrez\\xadrez\\tabuleiro\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|solutionrelative:tabuleiro\\posicao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|c:\\workplace\\rhysticstudy\\c#\\xadrez\\xadrez\\contjogo\\posicaoxadrez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E49EFD36-A087-4C16-9218-9F09BE7D4224}|Xadrez.csproj|solutionrelative:contjogo\\posicaoxadrez.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +42,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Posicao.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\Tabuleiro\\Posicao.cs",
-              "RelativeDocumentMoniker": "Tabuleiro\\Posicao.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\Tabuleiro\\Posicao.cs",
-              "RelativeToolTip": "Tabuleiro\\Posicao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
+              "DocumentIndex": 3,
+              "Title": "PosicaoXadrez.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\ContJogo\\PosicaoXadrez.cs",
+              "RelativeDocumentMoniker": "ContJogo\\PosicaoXadrez.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\ContJogo\\PosicaoXadrez.cs",
+              "RelativeToolTip": "ContJogo\\PosicaoXadrez.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T19:39:19.689Z",
+              "WhenOpened": "2024-08-06T21:03:25.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tela.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\Tela.cs",
+              "RelativeDocumentMoniker": "Tela.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\Tela.cs",
+              "RelativeToolTip": "Tela.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAArwBwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T20:56:06.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Tabuleiro.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\ContTabuleiro\\Tabuleiro.cs",
+              "RelativeDocumentMoniker": "ContTabuleiro\\Tabuleiro.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\ContTabuleiro\\Tabuleiro.cs",
+              "RelativeToolTip": "ContTabuleiro\\Tabuleiro.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAA0wDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T19:56:29.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\Xadrez\\Xadrez\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T19:37:38.79Z",
               "EditorCaption": ""
