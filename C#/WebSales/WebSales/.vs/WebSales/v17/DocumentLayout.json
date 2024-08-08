@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\controllers\\magicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:controllers\\magicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\views\\magics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:views\\magics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvyIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T15:11:59.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Magics\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Magics\\Index.cshtml",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Magics\\Index.cshtml",
+              "RelativeToolTip": "Views\\Magics\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T15:06:12.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MagicsController.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Controllers\\MagicsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MagicsController.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Controllers\\MagicsController.cs",
+              "RelativeToolTip": "Controllers\\MagicsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:53:51.134Z",
+              "EditorCaption": ""
             }
           ]
         }

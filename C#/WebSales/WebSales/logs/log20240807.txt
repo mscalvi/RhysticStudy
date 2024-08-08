@@ -1,0 +1,27 @@
+2024-08-07 20:30:06.643 -03:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-08-07 20:30:06.669 -03:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-08-07 20:30:06.714 -03:00 [INF] Creating key {7a38ca7e-ced9-4f48-8e7a-5c19ba39311b} with creation date 2024-08-07 23:30:06Z, activation date 2024-08-07 23:30:06Z, and expiration date 2024-11-05 23:30:06Z.
+2024-08-07 20:30:06.720 -03:00 [WRN] No XML encryptor configured. Key {7a38ca7e-ced9-4f48-8e7a-5c19ba39311b} may be persisted to storage in unencrypted form.
+2024-08-07 20:30:06.855 -03:00 [INF] Now listening on: https://localhost:7124
+2024-08-07 20:30:06.855 -03:00 [INF] Now listening on: http://localhost:5291
+2024-08-07 20:30:06.857 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-07 20:30:06.857 -03:00 [INF] Hosting environment: Development
+2024-08-07 20:30:06.857 -03:00 [INF] Content root path: C:\WorkPlace\RhysticStudy\C#\WebSales\WebSales
+2024-08-07 20:30:07.107 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7124/ - null null
+2024-08-07 20:30:07.123 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7124/ - 404 0 null 20.7961ms
+2024-08-07 20:30:07.130 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7124/, Response status code: 404
+2024-08-07 20:30:08.250 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7124/ - null null
+2024-08-07 20:30:08.251 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7124/ - 404 0 null 1.2453ms
+2024-08-07 20:30:08.251 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7124/, Response status code: 404
+2024-08-07 20:31:59.030 -03:00 [WRN] Using an in-memory repository. Keys will not be persisted to storage.
+2024-08-07 20:31:59.107 -03:00 [WRN] Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+2024-08-07 20:31:59.275 -03:00 [INF] Creating key {c90a2b45-cc05-4d80-a6a7-570899b1a536} with creation date 2024-08-07 23:31:59Z, activation date 2024-08-07 23:31:59Z, and expiration date 2024-11-05 23:31:59Z.
+2024-08-07 20:31:59.280 -03:00 [WRN] No XML encryptor configured. Key {c90a2b45-cc05-4d80-a6a7-570899b1a536} may be persisted to storage in unencrypted form.
+2024-08-07 20:31:59.690 -03:00 [INF] Now listening on: https://localhost:7124
+2024-08-07 20:31:59.690 -03:00 [INF] Now listening on: http://localhost:5291
+2024-08-07 20:31:59.691 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-07 20:31:59.691 -03:00 [INF] Hosting environment: Development
+2024-08-07 20:31:59.691 -03:00 [INF] Content root path: C:\WorkPlace\RhysticStudy\C#\WebSales\WebSales
+2024-08-07 20:32:00.400 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7124/ - null null
+2024-08-07 20:32:00.412 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7124/ - 404 0 null 14.8618ms
+2024-08-07 20:32:00.413 -03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7124/, Response status code: 404
