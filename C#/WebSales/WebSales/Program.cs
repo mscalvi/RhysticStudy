@@ -2,8 +2,10 @@
 using Microsoft.Extensions.DependencyInjection;
 using WebSales.Data;
 var builder = WebApplication.CreateBuilder(args);
+var connectionStr = "server=localhost;userid=mscalvi;password=yzqtzxs5;database=WebSalesDB";
 builder.Services.AddDbContext<WebSalesContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("WebSalesContext") ?? throw new InvalidOperationException("Connection string 'WebSalesContext' not found.")));
+    options.UseMySql(connectionStr, ServerVersion.AutoDetect(connectionStr)));    
+//options.UseSqlServer(builder.Configuration.GetConnectionString("WebSalesContext") ?? throw new InvalidOperationException("Connection string 'WebSalesContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
