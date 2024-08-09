@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "98ApdoeKVBRZyPSBsfKNR4IGIwm8oorK7LYQKZfH7Bk=",
+  "Hash": "p6YBQ+HKg2DgFRd2DLUF9SqPio+ErP3Kk1X2JIFPVHw=",
   "Source": "WebSales",
   "BasePath": "_content/WebSales",
   "Mode": "Default",
@@ -262,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-cyborg.css",
+      "SourceId": "WebSales",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\wwwroot\\",
+      "BasePath": "_content/WebSales",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-cyborg.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-cyborg.css"
     },
     {
       "Identity": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
