@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using WebSales.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
 var connectionStr = "server=localhost;userid=mscalvi;password=yzqtzxs5;database=WebSalesDB";
 builder.Services.AddDbContext<WebSalesContext>(options =>
     options.UseMySql(connectionStr, ServerVersion.AutoDetect(connectionStr)));
@@ -9,6 +11,9 @@ builder.Services.AddDbContext<WebSalesContext>(options =>
 
 // Registrar o SeedingService
 builder.Services.AddScoped<SeedingService>();
+
+// Registrar o PlayerServices
+builder.Services.AddScoped<IPlayersServices, PlayersServices>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -22,7 +27,7 @@ using (var scope = app.Services.CreateScope())
     dbContext.Database.Migrate();  // Aplica as migrações pendentes
 
     var seedingService = scope.ServiceProvider.GetRequiredService<SeedingService>();
-    seedingService.Seed();
+    seedingService.Seed(); // Popula o banco de dados
 }
 
 // Configure the HTTP request pipeline.
