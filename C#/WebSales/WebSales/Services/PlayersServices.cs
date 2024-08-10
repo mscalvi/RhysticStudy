@@ -1,17 +1,27 @@
 ﻿using WebSales.Data;
 using WebSales.Models;
 
-public class PlayersServices : IPlayersServices
+namespace WebSales.Services
 {
-    private readonly WebSalesContext _context;
-
-    public PlayersServices(WebSalesContext context)
+    public class PlayersServices
     {
-        _context = context;
+        private readonly WebSalesContext _context;
+
+        public PlayersServices(WebSalesContext context)
+        {
+            _context = context;
+        }
+
+        public List<Players> FindAll()
+        {
+            return _context.Players.ToList();
+        }
+
+        public void Insert(Players obj)
+        {
+            _context.Add(obj);
+            _context.SaveChanges();
+        }
     }
 
-    public List<Players> FindAll()
-    {
-        return _context.Players.ToList();
-    }
 }

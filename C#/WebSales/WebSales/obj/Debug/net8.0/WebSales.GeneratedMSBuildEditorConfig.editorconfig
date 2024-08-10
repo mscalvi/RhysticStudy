@@ -38,24 +38,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkPlace/RhysticStudy/C\#/WebSales/WebSales/Views/Magics/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFnaWNzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/WorkPlace/RhysticStudy/C\#/WebSales/WebSales/Views/Magics/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFnaWNzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/WorkPlace/RhysticStudy/C\#/WebSales/WebSales/Views/Magics/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFnaWNzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/WorkPlace/RhysticStudy/C\#/WebSales/WebSales/Views/Magics/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFnaWNzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/WorkPlace/RhysticStudy/C\#/WebSales/WebSales/Views/Magics/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFnaWNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WorkPlace/RhysticStudy/C\#/WebSales/WebSales/Views/Players/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/WorkPlace/RhysticStudy/C\#/WebSales/WebSales/Views/Players/Index.cshtml]

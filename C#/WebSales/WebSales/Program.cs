@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using WebSales.Data;
+using WebSales.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,7 @@ builder.Services.AddDbContext<WebSalesContext>(options =>
 builder.Services.AddScoped<SeedingService>();
 
 // Registrar o PlayerServices
-builder.Services.AddScoped<IPlayersServices, PlayersServices>();
+builder.Services.AddScoped<PlayersServices>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\services\\playersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:services\\playersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\services\\iplayersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:services\\iplayersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\services\\playersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:services\\playersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +50,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Players.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Players.cs",
+              "RelativeDocumentMoniker": "Models\\Players.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Players.cs",
+              "RelativeToolTip": "Models\\Players.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T18:27:46.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Players\\Create.cshtml",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Create.cshtml",
+              "RelativeToolTip": "Views\\Players\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T18:22:48.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Players\\Index.cshtml",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Index.cshtml",
               "RelativeToolTip": "Views\\Players\\Index.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvxgAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-10T17:45:45.281Z",
               "EditorCaption": ""
@@ -65,7 +95,7 @@
               "RelativeDocumentMoniker": "Controllers\\PlayersController.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Controllers\\PlayersController.cs",
               "RelativeToolTip": "Controllers\\PlayersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T17:40:35.047Z",
               "EditorCaption": ""
@@ -78,33 +108,20 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T17:30:56.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPlayersServices.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Services\\IPlayersServices.cs",
-              "RelativeDocumentMoniker": "Services\\IPlayersServices.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Services\\IPlayersServices.cs",
-              "RelativeToolTip": "Services\\IPlayersServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T17:36:46.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PlayersServices.cs",
               "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Services\\PlayersServices.cs",
               "RelativeDocumentMoniker": "Services\\PlayersServices.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Services\\PlayersServices.cs",
               "RelativeToolTip": "Services\\PlayersServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-10T17:22:21.713Z",
               "EditorCaption": ""
