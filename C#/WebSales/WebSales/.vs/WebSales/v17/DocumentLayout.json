@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\data\\websalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:data\\websalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\tournaments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\tournaments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\tournaments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\tournaments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\data\\seedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:data\\seedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\decks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\decks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\magics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\magics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\data\\websalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:data\\websalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\controllers\\magicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:controllers\\magicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\views\\magics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:views\\magics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,53 +47,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WebSalesContext.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\WebSalesContext.cs",
-              "RelativeDocumentMoniker": "Data\\WebSalesContext.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\WebSalesContext.cs",
-              "RelativeToolTip": "Data\\WebSalesContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T01:05:46.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Magics.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Magics.cs",
-              "RelativeDocumentMoniker": "Models\\Magics.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Magics.cs",
-              "RelativeToolTip": "Models\\Magics.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T23:30:43.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Decks.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Decks.cs",
-              "RelativeDocumentMoniker": "Models\\Decks.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Decks.cs",
-              "RelativeToolTip": "Models\\Decks.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAmwBMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T23:36:14.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Tournaments.cs",
               "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Tournaments.cs",
               "RelativeDocumentMoniker": "Models\\Tournaments.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Tournaments.cs",
               "RelativeToolTip": "Models\\Tournaments.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA0wBgAAAAcAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T15:21:53.873Z",
+              "WhenOpened": "2024-08-10T02:04:18.723Z",
               "EditorCaption": ""
             },
             {
@@ -116,47 +65,45 @@
               "RelativeDocumentMoniker": "Models\\Players.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Players.cs",
               "RelativeToolTip": "Models\\Players.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAgAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T15:20:43.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-10T02:04:05.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "WebSalesContext.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\WebSalesContext.cs",
+              "RelativeDocumentMoniker": "Data\\WebSalesContext.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\WebSalesContext.cs",
+              "RelativeToolTip": "Data\\WebSalesContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T01:54:20.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T19:21:33.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-10T01:47:50.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Magics\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Magics\\Index.cshtml",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Magics\\Index.cshtml",
-              "RelativeToolTip": "Views\\Magics\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvxgAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T15:06:12.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MagicsController.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Controllers\\MagicsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MagicsController.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Controllers\\MagicsController.cs",
-              "RelativeToolTip": "Controllers\\MagicsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "SeedingService.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\SeedingService.cs",
+              "RelativeDocumentMoniker": "Data\\SeedingService.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\SeedingService.cs",
+              "RelativeToolTip": "Data\\SeedingService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwC8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T14:53:51.134Z"
+              "WhenOpened": "2024-08-10T01:13:41.355Z"
             }
           ]
         }

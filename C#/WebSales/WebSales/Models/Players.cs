@@ -7,20 +7,17 @@ namespace WebSales.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
+        public ICollection<Decks> Decks { get; set; } = new List<Decks>();
         public int Age { get; set; }
         public int Ranking { get; set; }
-        public ICollection<Decks> Decks { get; set; } = new List<Decks>();
         public ICollection<Tournaments> TournamentsPlayed { get; set; } = new List<Tournaments>();
 
         public Players() { }
-        public Players(int id, string name, string description, int age, int ranking)
+        public Players(int id, string name, Decks deck)
         {
             Id = id;
             Name = name;
-            Description = description;
-            Age = age;
-            Ranking = ranking;
+            Decks.Add(deck);
         }
 
         public void AddDecks(Decks decks)
