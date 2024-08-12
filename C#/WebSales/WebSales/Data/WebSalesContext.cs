@@ -16,7 +16,6 @@ namespace WebSales.Data
 
         public DbSet<Tournaments> Tournaments { get; set; } = default!;
         public DbSet<Magics> Magics { get; set; } = default!;
-        public DbSet<Decks> Decks { get; set; } = default!;
         public DbSet<Players> Players { get; set; } = default!;
     }
 }

@@ -13,7 +13,6 @@ namespace WebSales.Models
         public int PlayerNumber { get; set; }
         public TournamentStatus Status { get; set; }
         public Archetypes Archetype { get; set; }
-        public ICollection<Players> Players { get; set; } = new List<Players>();
 
         public Tournaments() { }
         public Tournaments(int id, string name, DateTime date, int playerNumber, TournamentStatus status, Archetypes archetype)
@@ -24,10 +23,6 @@ namespace WebSales.Models
             PlayerNumber = playerNumber;
             Status = status;
             Archetype = archetype;
-        }
-        public void AddPlayer(Players player)
-        {
-            Players.Add(player);
         }
     }
 }

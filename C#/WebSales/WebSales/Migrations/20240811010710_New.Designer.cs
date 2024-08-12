@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebSales.Data;
 
@@ -11,9 +12,11 @@ using WebSales.Data;
 namespace WebSales.Migrations
 {
     [DbContext(typeof(WebSalesContext))]
-    partial class WebSalesContextModelSnapshot : ModelSnapshot
+    [Migration("20240811010710_New")]
+    partial class New
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,6 +24,31 @@ namespace WebSales.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
+
+            modelBuilder.Entity("WebSales.Models.Decks", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Archetypes")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<int?>("PlayersId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PlayersId");
+
+                    b.ToTable("Decks");
+                });
 
             modelBuilder.Entity("WebSales.Models.Magics", b =>
                 {
@@ -50,6 +78,9 @@ namespace WebSales.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
+                    b.Property<int>("DecksId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -57,10 +88,7 @@ namespace WebSales.Migrations
                     b.Property<int>("Ranking")
                         .HasColumnType("int");
 
-                    b.Property<int>("TournamentId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TournamentsId")
+                    b.Property<int?>("TournamentsId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -99,15 +127,28 @@ namespace WebSales.Migrations
                     b.ToTable("Tournaments");
                 });
 
+            modelBuilder.Entity("WebSales.Models.Decks", b =>
+                {
+                    b.HasOne("WebSales.Models.Players", null)
+                        .WithMany("Decks")
+                        .HasForeignKey("PlayersId");
+                });
+
             modelBuilder.Entity("WebSales.Models.Players", b =>
                 {
-                    b.HasOne("WebSales.Models.Tournaments", "Tournaments")
-                        .WithMany()
-                        .HasForeignKey("TournamentsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("WebSales.Models.Tournaments", null)
+                        .WithMany("Players")
+                        .HasForeignKey("TournamentsId");
+                });
 
-                    b.Navigation("Tournaments");
+            modelBuilder.Entity("WebSales.Models.Players", b =>
+                {
+                    b.Navigation("Decks");
+                });
+
+            modelBuilder.Entity("WebSales.Models.Tournaments", b =>
+                {
+                    b.Navigation("Players");
                 });
 #pragma warning restore 612, 618
         }

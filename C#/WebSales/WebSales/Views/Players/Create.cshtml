@@ -1,4 +1,4 @@
-﻿@model WebSales.Models.Players
+﻿@model WebSales.Models.ViewModels.PlayerFormViewModel
 @{
     ViewData["Title"] = "Create";
 }
@@ -12,20 +12,20 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div class="form-group">
-                <label asp-for="Name" classe="control-label"></label>
-                <input asp-for="Name" class="form-control"></input>
+                <label asp-for="Player.Name" classe="control-label"></label>
+                <input asp-for="Player.Name" class="form-control"></input>
             </div>
             <div class="form-group">
-                <label asp-for="Age" classe="control-label"></label>
-                <input asp-for="Age" class="form-control"></input>
+                <label asp-for="Player.Age" classe="control-label"></label>
+                <input asp-for="Player.Age" class="form-control"></input>
             </div>
             <div class="form-group">
-                <label asp-for="Ranking" classe="control-label"></label>
-                <input asp-for="Ranking" class="form-control"></input>
+                <label asp-for="Player.Ranking" classe="control-label"></label>
+                <input asp-for="Player.Ranking" class="form-control"></input>
             </div>
             <div class="form-group">
-                <label asp-for="Decks" classe="control-label"></label>
-                <input asp-for="Decks" class="form-control"></input>
+                <label asp-for="Player.TournamentId" class="control-label"></label>
+                <select asp-for="Player.TournamentId" asp-items="@(new SelectList(Model.Tournaments, "Id", "Name"))" class="form-control"></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class=" btn btn-default" />

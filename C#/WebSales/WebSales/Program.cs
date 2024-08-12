@@ -8,13 +8,13 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionStr = "server=localhost;userid=mscalvi;password=yzqtzxs5;database=WebSalesDB";
 builder.Services.AddDbContext<WebSalesContext>(options =>
     options.UseMySql(connectionStr, ServerVersion.AutoDetect(connectionStr)));
-//options.UseSqlServer(builder.Configuration.GetConnectionString("WebSalesContext") ?? throw new InvalidOperationException("Connection string 'WebSalesContext' not found.")));
 
 // Registrar o SeedingService
 builder.Services.AddScoped<SeedingService>();
 
-// Registrar o PlayerServices
+// Registrar os Services
 builder.Services.AddScoped<PlayersServices>();
+builder.Services.AddScoped<TournamentsServices>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -31,19 +31,10 @@ using (var scope = app.Services.CreateScope())
     seedingService.Seed(); // Popula o banco de dados
 }
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
-}
-
-// Chamar o método de seeding para popular o banco de dados
-using (var scope = app.Services.CreateScope())
-{
-    var seedingService = scope.ServiceProvider.GetRequiredService<SeedingService>();
-    seedingService.Seed();
 }
 
 app.UseHttpsRedirection();

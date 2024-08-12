@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\services\\playersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:services\\playersservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\players.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Migrations\\20240811014343_Seilaman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240811014343_Seilaman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\tournaments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\tournaments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\data\\websalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:data\\websalescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\data\\seedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:data\\seedingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\models\\viewmodels\\playerformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:models\\viewmodels\\playerformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|c:\\workplace\\rhysticstudy\\c#\\websales\\websales\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9BBE78F-451E-4050-9DCF-FA082788E2EA}|WebSales.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,80 +66,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Players.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Players.cs",
-              "RelativeDocumentMoniker": "Models\\Players.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Players.cs",
-              "RelativeToolTip": "Models\\Players.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T18:27:46.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Players\\Create.cshtml",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Create.cshtml",
-              "RelativeToolTip": "Views\\Players\\Create.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-10T18:22:48.794Z",
+              "Title": "20240811014343_Seilaman.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Migrations\\20240811014343_Seilaman.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240811014343_Seilaman.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Migrations\\20240811014343_Seilaman.cs",
+              "RelativeToolTip": "Migrations\\20240811014343_Seilaman.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T01:43:43.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Players\\Index.cshtml",
               "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Index.cshtml",
               "RelativeToolTip": "Views\\Players\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-10T17:45:45.281Z",
+              "WhenOpened": "2024-08-11T01:34:27.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeedingService.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\SeedingService.cs",
+              "RelativeDocumentMoniker": "Data\\SeedingService.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\SeedingService.cs",
+              "RelativeToolTip": "Data\\SeedingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T01:34:06.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebSalesContext.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\WebSalesContext.cs",
+              "RelativeDocumentMoniker": "Data\\WebSalesContext.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Data\\WebSalesContext.cs",
+              "RelativeToolTip": "Data\\WebSalesContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T01:33:50.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayersController.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Controllers\\PlayersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PlayersController.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Controllers\\PlayersController.cs",
-              "RelativeToolTip": "Controllers\\PlayersController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAiAAAA",
+              "Title": "Players.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Players.cs",
+              "RelativeDocumentMoniker": "Models\\Players.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Players.cs",
+              "RelativeToolTip": "Models\\Players.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T17:40:35.047Z",
+              "WhenOpened": "2024-08-11T01:28:06.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tournaments.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Tournaments.cs",
+              "RelativeDocumentMoniker": "Models\\Tournaments.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\Tournaments.cs",
+              "RelativeToolTip": "Models\\Tournaments.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T01:25:44.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T17:30:56.107Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Players\\Create.cshtml",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Views\\Players\\Create.cshtml",
+              "RelativeToolTip": "Views\\Players\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T01:19:20.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayersServices.cs",
-              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Services\\PlayersServices.cs",
-              "RelativeDocumentMoniker": "Services\\PlayersServices.cs",
-              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Services\\PlayersServices.cs",
-              "RelativeToolTip": "Services\\PlayersServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Title": "PlayersController.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Controllers\\PlayersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlayersController.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Controllers\\PlayersController.cs",
+              "RelativeToolTip": "Controllers\\PlayersController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwCIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T17:22:21.713Z",
+              "WhenOpened": "2024-08-11T01:10:00.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerFormViewModel.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\ViewModels\\PlayerFormViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\PlayerFormViewModel.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Models\\ViewModels\\PlayerFormViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\PlayerFormViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T01:09:10.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\WorkPlace\\RhysticStudy\\C#\\WebSales\\WebSales\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwCcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T17:30:56.107Z",
               "EditorCaption": ""
             }
           ]

@@ -16,9 +16,6 @@
                 @Html.DisplayNameFor(model => model.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Decks)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Ranking)
             </th>
             <th>
@@ -34,14 +31,10 @@
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Decks)
-                </td>
-                <td>
                     @Html.DisplayFor(modelItem => item.Ranking)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="NewDeck" asp-route-id="@item.Id">New Deck</a> |
                     <a asp-action="NewTournament" asp-route-id="@item.Id">New Tournament</a>
                 </td>
             </tr>
