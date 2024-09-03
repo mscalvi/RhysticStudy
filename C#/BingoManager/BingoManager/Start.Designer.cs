@@ -333,12 +333,12 @@ namespace BingoManager
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1220, 639);
+            this.Controls.Add(this.CreationPanel);
+            this.Controls.Add(this.StartPanel);
             this.Controls.Add(this.ListEditPanel);
             this.Controls.Add(this.EditPanel);
             this.Controls.Add(this.btnReturnStart);
             this.Controls.Add(this.BingoTitle);
-            this.Controls.Add(this.StartPanel);
-            this.Controls.Add(this.CreationPanel);
             this.Name = "StartScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BingoManager";
