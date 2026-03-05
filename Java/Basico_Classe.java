@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Person {
+public class Basico_Classe {
 	private String Name;
 	private String Adress;
 	private String Phone;
@@ -42,7 +42,7 @@ public class Person {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 		
-        Person p1 = new Person();
+        Basico_Classe p1 = new Basico_Classe();
 
         System.out.print("Digite o nome: ");
         p1.setName(sc.nextLine());
