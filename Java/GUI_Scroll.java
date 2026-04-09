@@ -26,3 +26,7 @@ class Exerc2 extendes JFrame{
 public static void main (string s[]){
     new Exerc2();
 }
+
+// É apresentado uma linha com os quatro botões, e uma área de texto em branco com um recurso de rolagem.
+
+// A linha serve para tornar o text panel redimensionável
